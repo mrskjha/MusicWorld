@@ -30,8 +30,8 @@ function FeaturedCourses() {
   );
 
   return (
-    <div className=" bg-gray-900">
-      <div className="text-center">
+    <div className=" bg-gray-900 ">
+      <div className="text-center ">
         <h2 className=" font-semibold text-base pt-7 text-teal-600">
           FEATURED COURSES
         </h2>
@@ -39,7 +39,7 @@ function FeaturedCourses() {
           Learn With the Best
         </p>
       </div>
-      <div className="mt-10">
+      <div className="mt-8 ml-4 mr-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex justify-center">
@@ -60,7 +60,7 @@ function FeaturedCourses() {
       </div>
       <div className="mt-20 text-center">
         <Link href={"/courses"}>
-          <button className="p-[3px] relative ">
+          <button className="p-[3px] relative  mb-8">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
             <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
               <span className="z-10 relative">All COURSES</span>
