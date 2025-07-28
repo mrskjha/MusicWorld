@@ -1,7 +1,7 @@
 import React from 'react'
 import { HoverEffect } from "./ui/card-hover-effect";
-import { image } from 'framer-motion/m';
-import { div } from 'framer-motion/client';
+// import { image } from 'framer-motion/m';
+// import { div } from 'framer-motion/client';
 import Link from 'next/link';
 
 function FeatureWebinars() {

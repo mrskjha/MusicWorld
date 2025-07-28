@@ -1,6 +1,6 @@
 import React from 'react'
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import { div } from 'framer-motion/client';
+// import { div } from 'framer-motion/client';
 import { WavyBackground } from './ui/wavy-background';
 
 const people = [
